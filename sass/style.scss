@@ -1,0 +1,101 @@
+@use "variable";
+@use "mixin";
+
+* {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.square--container {
+  background-color: variable.$main-black;
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0;
+  padding: 25px;
+
+  &.square--one {
+    background-color: variable.$main-pink;
+    color: #fff;
+    display: flex;
+    width: 150px;
+    height: 350px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+  .square--three {
+    background-color: variable.$main-ocre;
+    color: #fff;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 150px;
+    padding: 16px;
+  }
+  .square--two {
+    background-color: variable.$main-green;
+    color: #fff;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 150px;
+    padding: 16px;
+    position: absolute;
+    top: 271px;
+    left: 321px;
+  }
+  .square--four {
+    background-color: variable.$main-vanilla;
+    color: variable.$main-black;
+    display: flex;
+    width: 343px;
+    height: 150px;
+    border-radius: 15px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+h2 {
+  color: whitesmoke;
+  background: none;
+  font-weight: 900;
+}
+p {
+  color: whitesmoke;
+  background: none;
+}
+.square-four-text {
+  color: variable.$main-black;
+  background: none;
+}
+
+@mixin square {
+  color: white;
+}

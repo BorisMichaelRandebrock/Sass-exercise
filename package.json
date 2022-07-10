@@ -1,0 +1,17 @@
+{
+  "name": "exercise_sass",
+  "version": "1.0.0",
+  "description": "Maqueta la captura adjunta usando SASS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx sass sass/style.scss css/style.css --watch",
+    "build-style": "sass sass/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}

@@ -1,0 +1,103 @@
+.square {
+  border-radius: 50%;
+}
+
+* {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.square--container {
+  background-color: #080d14;
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0;
+  padding: 25px;
+}
+.square--container.square--one {
+  background-color: #cd7692;
+  color: #fff;
+  display: flex;
+  width: 150px;
+  height: 350px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+.square--container .square--three {
+  background-color: #d1a742;
+  color: #fff;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 150px;
+  padding: 16px;
+}
+.square--container .square--two {
+  background-color: #49885c;
+  color: #fff;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 150px;
+  padding: 16px;
+  position: absolute;
+  top: 271px;
+  left: 321px;
+}
+.square--container .square--four {
+  background-color: #fcefd8;
+  color: #080d14;
+  display: flex;
+  width: 343px;
+  height: 150px;
+  border-radius: 15px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  color: whitesmoke;
+  background: none;
+  font-weight: 900;
+}
+
+p {
+  color: whitesmoke;
+  background: none;
+}
+
+.square-four-text {
+  color: #080d14;
+  background: none;
+}
+
+/*# sourceMappingURL=style.css.map */
