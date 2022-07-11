@@ -49,6 +49,9 @@
     border-radius: 15px;
     height: 150px;
     padding: 16px;
+    position: relative;
+    top: -382px;
+    left: 106px;
   }
   .square--two {
     background-color: variable.$main-green;
@@ -63,9 +66,9 @@
     border-radius: 15px;
     height: 150px;
     padding: 16px;
-    position: absolute;
-    top: 271px;
-    left: 321px;
+    position: relative;
+    top: 200px;
+    left: 7px;
   }
   .square--four {
     background-color: variable.$main-vanilla;
@@ -79,6 +82,9 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    position: relative;
+    top: -158px;
+    left: 10px;
   }
 }
 
